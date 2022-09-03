@@ -18,6 +18,10 @@ public class Main {
         muz=inp.nextInt();
         double ORT= (mat+fiz+kim+turk+tar+muz)/6;
         System.out.println( ORT>60 ? "\nsınıfı geçti" + ORT : "kaldı\n" + ORT);
+        
+        /*  boolean kosul = sonuc >= 60;
+            String gectiMi = kosul ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+            System.out.println(gectiMi); */
 
 
     }
